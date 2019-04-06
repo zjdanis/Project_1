@@ -26,7 +26,7 @@ img {
     border-color: firebrick;
     text-indent: 10px;
     overflow: auto;
-    background-color: antiquewhite
+    background-color: antiquewhite;
 }
 .army, .nscs {
     float: right;
