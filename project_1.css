@@ -13,6 +13,7 @@ ul, li {
 img {
     border-color: mediumpurple;
     border-style: groove;
+    border: 5;
     
 }
 .about_me {
@@ -25,9 +26,11 @@ img {
     border-color: firebrick;
     text-indent: 10px;
     overflow: auto;
+    background-color: antiquewhite
 }
 .army, .nscs {
     float: right;
     width: auto;
     padding: 10px;
+    border: 0;
 }
