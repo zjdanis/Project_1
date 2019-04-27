@@ -2,24 +2,34 @@ body {
     font-family: serif;
     background-color: lavender;
 }
-h2, h3, h4 {
-    font-family: serif; 
+
+h2,
+h3,
+h4 {
+    font-family: serif;
     text-align-last: left;
     color: dimgrey;
 }
-ul, li {
+
+ul,
+li {
     color: dimgrey;
+    width: 500px;
 }
+
 img {
     border-color: mediumpurple;
     border-style: groove;
     border: 5;
+
 }
+
 .about_me {
     text-indent: 50px;
     text-align: center;
     color: black;
 }
+
 #Additional {
     border-style: dashed;
     border-color: firebrick;
@@ -27,7 +37,10 @@ img {
     overflow: auto;
     background-color: antiquewhite
 }
-.army, .nscs {
+
+/*place both in a group and float to the right to keep on right side*/
+.army,
+.nscs {
     float: right;
     width: auto;
     padding: 10px;
