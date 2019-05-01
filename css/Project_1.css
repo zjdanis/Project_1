@@ -20,7 +20,7 @@ li {
 img {
     border-color: mediumpurple;
     border-style: groove;
-    border: 5;
+    border: 5%;
 
 }
 
@@ -52,4 +52,5 @@ img {
 .banner {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
