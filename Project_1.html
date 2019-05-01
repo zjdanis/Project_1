@@ -1,45 +1,55 @@
 <!DOCTYPE html>
+<!--include lang and meta charset for all hmtl-->
 <html lang="en-US">
-    <meta charset="UTF-8">
-    <head>
-        <link rel="stylesheet" href="css/Project_1.css">
-        <title>Zachery Danis</title>
-    </head>
-    <body>
+<meta charset="UTF-8">
+
+<head>
+    <link rel="stylesheet" href="css/Project_1.css">
+    <title>Zachery Danis</title>
+</head>
+<img src="https://images.ctfassets.net/7ca9kifzimh6/4E4BoAIvHq2KIIuMQakEq2/089f44baebb3e06399894bcbc458efcd/technology.jpg?q=50&fl=progressive" class="banner" height="200" width="100%">
+
+<body>
     <div class="about_me">
-    <canvas id="myCanvas" width="550" height="100" style="border:1px solid #000000">
-        <script>
-            var c = document.getElementById("myCanvas");
-            var ctx = c.getContext("2d");
-            ctx.font = "75px Times New Roman";
-            ctx.strokeText("Zachery Danis", 55, 65);
-        </script>
-    </canvas>
-    <h1 style="text-align:center;">About Me</h1>
-        <p>My name is Zachery Danis, I am 25 years old and recently got married to my wife, Jen. We became best friends in high school and dated off and on. This April we will be celebrating six years together. We have two dogs together, Tali a French Bulldog and Quinn a Boston Terrier. In November of 2017, Tali slipped a disk her spine which paralyzed her. It is easy to see in the video below that the paralysis has not slowed her down. I am originally from New Hampshire, I lived there for 18 years before leaving. I moved to Jacksonville, Florida when I was 21. My wife and I lived there for over a year and eventually moved down to Fort Myers so we could attend college and be closer to family.</p>
+        <canvas id="myCanvas" width="550" height="100" style="border:1px solid #000000">
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.font = "75px Times New Roman";
+                ctx.strokeText("Zachery Danis", 55, 65);
+
+            </script>
+        </canvas>
+
+        <h1 style="text-align:center;">About Me</h1>
+        <p>My name is Zachery Danis, I am 25 years old and recently got married to my wife, Jen. We became best friends in high school and dated off and on. This April we will be celebrating six years together. We have two dogs together, Tali a French Bulldog and Quinn a Boston Terrier. In November of 2017, Tali slipped a disk her spine which paralyzed her. It is easy to see in the video below that the paralysis has not slowed her down. I am originally from New Hampshire, I lived there for 18 years before leaving. I moved to Jacksonville, Florida when I was 21. My wife and I lived there for a over a year and eventually moved down to Fort Myers so we could attend college and be closer to family.</p>
         <img src="IMG_3832.JPG" alt="Credit to Nemesis Photo" width="300" height="200">
-        <img src="IMG_2947.JPG" alt="Tali and Quinn" width="200" height="200" >
+        <img src="IMG_2947.JPG" alt="Tali and Quinn" width="200" height="200">
         <video controls width="200" height="300">
             <source src="IMG_2963.MOV">
         </video>
-        <p>I am a big fan of music as well, since a young age I found myself listening to a wide variety of music. I continue to listen to a very wide variety, but I think of any genres I continue to bounce between Hip-Hip and Death Metal. Take a listen to some of my favorite artists, this is Sweatpants by Childish Gambino and Our Lady of Perpetual Sorrow by The Acacia Strain.</p>
+
+        <p>I am a big fan of music as well, since a young age I found myself listening to a wide variety of music. I still continue to listen to a very wide variety but I think of an genres I continue to bounce between Hip-Hip and Death Metal. Take a listen to some of my favorite artists, This is Sweatpants by Childish Gambino and Our Lady of Perpetual Sorrow by The Acacia Strain.</p>
         <audio controls>
+            <!--Audio file has to be MP3, WMA won't work, and WAV is too big to put on github-->
             <source src="08%20IV.%20Sweatpants%20(online-audio-converter.com).mp3" type="audio/mp3">
             <p>Your browser does not support the audio element</p>
         </audio>
-            <audio controls> <source src="02%20Our%20Lady%20Of%20Perpetual%20Sorrow%20(online-audio-converter.com).mp3" type="audio/mp3">
-                <p>Your browser does not support the audio element</p>
+        <audio controls>
+            <source src="02%20Our%20Lady%20Of%20Perpetual%20Sorrow%20(online-audio-converter.com).mp3" type="audio/mpeg">
+            <p>Your browser does not support the audio element</p>
         </audio>
+
         <p>I am a Veteran of the U.S. Army, which is where I learned a love of working with computers. I served three and half years of activity duty, moving around to places such as South Carolina, Texas, South Korea, and Georgia. During my time in the Army I also received many tattoos; I currently have six tattoos which amount to roughly thirty-five hours.
         </p>
-        <!--when adding a photo or other file move it to the folder you are deriving the code from-->
+        <!--when adding a photo move photo to the folder you are deriving the code from-->
         <img src="IMG_2753.JPG" height="250" width="200" alt="Army">
         <svg width="200" height="250">
-            <polygon points="100,10 40 198 190, 78 10, 78 160,198" style="fill:forestgreen;stroke:goldenrod;stroke-width:3;fill-rule:evenodd;"/>
+            <polygon points="100,10 40 198 190, 78 10, 78 160,198" style="fill:forestgreen;stroke:goldenrod;stroke-width:3;fill-rule:evenodd;" />
         </svg>
         <img src="IMG_3895.JPG" height="250" width="200" alt="sleeve">
     </div>
-    <div id="Additional" >
+    <div id="Additional">
         <img src="United_States_Army" height="200" width="200" class="army" alt="armyLogo">
 
         <h2>Educational Experience</h2>
@@ -49,34 +59,66 @@
             <li>Calculus</li>
             <li>Computer Science</li>
         </ul>
-       
-    <h3>Work Samples</h3>
+        <h3>Work Samples</h3>
         <ul>
             <li>U.S. Army Intelligence</li>
             <li>Best Buy</li>
         </ul>
-    <h3>Accomplishments</h3>
+        <h3>Accomplishments and Skills</h3>
         <ul>
             <li>Received multiple awards in the Army </li>
             <li>Lead Analyst in my section</li>
             <li>Team Leader for my unit</li>
             <li>A member of the National Society of Collegiate Scholars</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Caeser Cipher</li>
+            <li>Type Phrase:<input id="caesar" type="text" name="phase"></li>
+            <li>Type Shift: <input id="shiftIt" type="integer" name="num"></li>
+            <script>
+                function shift(slideIt) {
+                    var slideText = document.getElementById("shiftIt").value;
+                    var moveIt = parseInt(slideText, 10);
+                    if (moveIt < 0 || moveIt >= 26) {
+                        alert("Out of shift range");
+                        return;
+                    }
+                    if (slideIt)
+                        moveIt = (26 - slideIt) % 26;
+                    var textElem = document.getElementById("caesar");
+                    textElem.value = cipher(textElem.value, moveIt);
+                }
+
+                function cipher(text, moveIt) {
+                    document.getElementById("caesar").submit();
+                    var result = "";
+                    for (var i = 0; i < text.length; i++) {
+                        var c = text.charCodeAt(i);
+                        if (65 <= c && c <= 90) result += String.fromCharCode((c - 65 + slideIt) % 26 + 65):
+                            else if (97 <= c && c <= 122) result += String.fromCharCode((c - 97 + slideIt) % 26 + 97);
+                            else result += text.charAt(i);
+                    }
+                    return result;
+                }
+
+            </script>
+            <li><input type="button" onclick="cipher" value="Encrypt"></li>
         </ul>
-    <img src="NSCS" width="200" height="200" class="nscs" alt="nscs">
-    <h4>Profiles and Links</h4>
-        <ul>
+        <img src="NSCS" width="200" height="200" class="nscs" alt="nscs">
+        <h4>Profiles and Links</h4>
+        <ul id="profiles">
             <li><a href="https://github.com/zjdanis">Github</a></li>
             <li><a href="https://www.codecademy.com/zdanis">Codecademy</a></li>
             <li><a href="FieldsReportDanis.pdf">Fields Report</a></li>
             <li><a href="https://linkedin.com/in/zacherydanis">LinkedIn</a></li>
             <li><a href="https://scratch.mit.edu/projects/284009650/">Scratch</a></li>
-            <li>To make the website usable, I made the colors dull with a low contrast so it is easy on the eyes. 
-                I also made sure that the colors complimented with the images I added. The video and audio clips 
-                I added were set up to make sure they played when the user started them. If I had used autoplay 
-                it would be too overwhelming with all playing at the same time. I added links to different profiles 
+            <li>To make the website usable, I made the colors dull with a low contrast so it is easy on the eyes.
+                I also made sure that the colors complimented with the images I added. The video and audio clips
+                I added were set up to make sure they played when the user started them. If I had used autoplay
+                it would be too overwhelming with all playing at the same time. I added links to different profiles
                 to show accomplishments.</li>
         </ul>
-     </div>
-        
-    </body>
+    </div>
+</body>
+
 </html>
