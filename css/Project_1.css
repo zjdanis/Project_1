@@ -28,6 +28,8 @@ img {
     text-indent: 50px;
     text-align: center;
     color: black;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #Additional {
@@ -35,7 +37,7 @@ img {
     border-color: firebrick;
     text-indent: 10px;
     overflow: auto;
-    background-color: antiquewhite
+    background-color: antiquewhite;
 }
 
 /*place both in a group and float to the right to keep on right side*/
@@ -45,4 +47,9 @@ img {
     width: auto;
     padding: 10px;
     border: 0;
+}
+
+.banner {
+    margin: 0;
+    padding: 0;
 }
